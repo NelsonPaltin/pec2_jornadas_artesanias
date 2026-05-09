@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="border-bottom border-primary">
+        <include src="./views/header.html"></include>
+    </header>
+
+    <nav class="container fs-6"
+        style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/src/index.html" class="text-secondary">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ponentes</li>
+        </ol>
+    </nav>
+
+    <main class="persons container">
+
+        <h2 class="persons__title fs-3">Ponentes</h2>
+
+        <!-- Retícula con CSS Flex-->
+        <div class="persons__list">
+
+            <section class="person">
+                <div>
+                    <img src="/src/assets/images/person_1.jpg" alt="Ponente Michael Smith" class="person__img">
+                </div>
+                <h2 class="person__name fs-5">
+                    Michael Smith
+                </h2>
+                <p class="person__info fs-6">
+                    Emprendedor y experto en la fabricación de artesanías en madera; tiene más de 15 años de experiencia en la ciudad de New York. <br> (Miércoles 12 de mayo del 2026 - 19:00)<br><a class="fs-6" href="#">Enlace vía Zoom</a>
+                
+                </p>
+                
+            </section>
+
+            <section class="person">
+                <div>
+                    <img src="/src/assets/images/person_2.jpg" alt="Ponente Fabricio Pascual" class="person__img">
+                </div>
+                <h2 class="person__name fs-5">
+                    Fabricio Pascual
+                </h2>
+                <p class="person__info fs-6">
+                    Artesano experto en fabricación de artesanías para el hogar, tiene una trayectoría de 30 años ofreciendo modelos de características complejas.<br>La presentación se realizará en el centro de artesanías de Bogotá en Colombia el día 21 de mayo del 2026 a las 17:00.
+                </p>
+            </section>
+
+            <section class="person">
+                <div>
+                    <img src="/src/assets/images/person_3.jpg" alt="Ponente María Cabrera" class="person__img">
+                </div>
+                <h2 class="person__name fs-5">
+                    María Cabrera
+                </h2>
+                <p class="person__info fs-6">
+                    Experta en la fabricación de adornos artesanales muestra la manera correcta de empezar un modelo de negocio con un presupuesto ajustado.<br> (Miércoles 16 de mayo del 2026 - 20:00)<br><a class="fs-6" href="#">Enlace vía Zoom</a>
+                </p>
+            </section>
+
+            <section class="person">
+                <div>
+                    <img src="/src/assets/images/person_4.jpg" alt="Ponente Victória Jiménez" class="person__img">
+                </div>
+                <h2 class="person__name fs-5">
+                    Victória Jiménez
+                </h2>
+                <p class="person__info fs-6">
+                    Especialista en la elaboración de vajillas, ollas de barro o cerámica, nos cuenta la importancia de selecionar la calidad de la materia prima para su posterior venta.<br>La presentación se realizará el 20 de mayo del 2026 a las 09:00 en el centro de artesanías de Madrid.
+                </p>
+            </section>
+
+            <section class="person">
+                <div class="person__img">
+                    <img src="/src/assets/images/person_5.jpg" alt="Ponente Jason Douglas" class="person__img">
+                </div>
+                <h2 class="person__name fs-5">
+                    Jason Douglas
+                </h2>
+                <p class="person__info fs-6">
+                    Artesano experto en la fabricación de zapatos, indica la necesidad de recuperar las tradiciones ante un posible extinción de la ocupación.<br>(Miércoles 22 de mayo del 2026 - 20:00)<br><a class="fs-6" href="#">Enlace vía Zoom</a>
+                </p>
+            </section>
+
+            <section class="person">
+                <div>
+                    <img src="/src/assets/images/person_6.jpg" alt="Ponente Marta Abendaño" class="person__img">
+                </div>
+                <h2 class="person__name fs-5">
+                    Marta Abendaño
+                </h2>
+                <p class="person__info fs-6">
+                    Emprendedora y experta en la fabricación de bisutería expone las técnicas necesarias para la elaboración de aretes y collares.<br>La presentación se realizará el 20 de mayo del 2026 a las 11:00 en el centro de artesanías de Madrid.
+                </p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <include src="./views/footer-contact.html"></include>
+
+    <include src="./views/footer.html"></include>
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@use "sass:color";
+
+// Tamaño de la fuente de Bootstrap
+$font-sizes: (
+  1: 2rem,
+  2: 1.8rem,
+  3: 1.6rem,
+  4: 1rem,
+  5: 0.8rem,
+  6: 0.6rem
+);
+
+$primary:   #73EDFF;
+$secondary:  #000078;
+$success:    #d5ff87;
+$info:       #00ffe1;
+$warning:    #fcb500;
+$danger:     #ff6464;
+$light:      #dbdbdb;
+$dark:       #454545;
+
+// Mapa de colores de Bootstrap
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+$font-family-sans-serif: 'Host Grotesk', sans-serif;
+$font-family-serif: "Times New Roman", serif;
+
+$mqMinWidth: 420px;

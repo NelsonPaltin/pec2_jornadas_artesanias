@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="border-bottom border-primary">
+        <include src="./views/header.html"></include>
+    </header>
+    
+    <!-- Menú navegable -->
+    <nav class="container fs-6"
+        style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/src/index.html" class="text-secondary">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Galería</li>
+        </ol>
+    </nav>
+
+    <section class="gallery">
+        <div class="container">
+            <!-- Galería 12 imágenes -->
+            <h1 class="fs-3 mb-4 text-center">Galería</h1>
+            <div class="row g-3">
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller de pulseras                       
+                        </div>
+                        <img src="/src/assets/images/g1.jpg" class="gallery-item__img" alt="Elaboración de pulseras">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Elaboración de pulseras con enhebrado básico.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller de collares
+                        </div>
+                        <img src="/src/assets/images/g2.jpg" class="gallery-item__img" alt="Técnica de enhebrado">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Técnica de enhebrado para la elaboración de collares.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller de pulseras
+                        </div>
+                        <img src="/src/assets/images/g3.jpg" class="gallery-item__img" alt="Fabricación de pulseras">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Fabricación de pulseras con la técnica de trenzado de tres hilos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller de joyería
+                        </div>
+                        <img src="/src/assets/images/g4.jpg" class="gallery-item__img" alt="Fabricación de anillos">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Fabricación de anillos plata y oro. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Jornada matutina
+                        </div>
+                        <img src="/src/assets/images/g5.jpg" class="gallery-item__img" alt="Elaboración de azulejos">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Técnicas de elaboración de azulejos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller textil
+                        </div>
+                        <img src="/src/assets/images/g6.jpg" class="gallery-item__img" alt="Armado de embellecedores textiles">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Técnicas de armado de embellecedores textiles.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller prinicipal
+                        </div>
+                        <img src="/src/assets/images/g7.jpg" class="gallery-item__img" alt="Taller artesanal Mallorca">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Herramientas para la elaboración de artesanía en el centro artesanal de Mallorca.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Curso de artesanías
+                        </div>
+                        <img src="/src/assets/images/g8.jpg" class="gallery-item__img" alt="Curso de artesanías">
+                        <p class="gallery-item__description fs-6 p-2">
+                            Curso de artesanías finalizado el 14 de marzo del 2025.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <div class="gallery-item__title text-center fs-5">
+                            Taller del Artesano
+                        </div>
+                        <img src="/src/assets/images/g10.jpg" class="gallery-item__img" alt="Participación en el taller de la artesana Gloria Jiménez">
+                        <p class="gallery-item__description fs-6 p-2">
+                            El curso se realizó el 30 de marzo del 2025 con la participación de la artesana Gloria Jiménez.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <include src="./views/footer-contact.html"></include>
+
+    <include src="./views/footer.html"></include>
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <!-- do not remove this line! -->
+  <title>UOC Boilerplate</title>
+</head>
+
+<body class="contenido">
+
+  <div class="home">
+
+    <header class="home__header">
+      <include src="./views/header.html"></include>
+    </header>
+
+    <main class="home__information">
+      <h1 class="home__title">
+        ¡Aprender es transformar!
+      </h1>
+      <p class="home__text">
+        Descubre las novedades de cursos, talleres y ponencias orientadas a la fabricación de artesanías
+      </p>
+    </main>
+
+  </div>
+
+  <include src="./views/footer-contact.html"></include>
+
+  <footer>
+    <include src="./views/footer.html"></include>
+  </footer>
+
+  <script type="module" src="./assets/scripts/main.js"></script>
+  <!-- do not remove this line! -->
+</body>
+
+</html>

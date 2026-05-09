@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <title>Información</title>
+</head>
+
+<body>
+
+    <header class="border-bottom border-primary">
+        <include src="./views/header.html"></include>
+    </header>
+
+    <main>
+        <!--   Imagen destacada de la sección noticias   -->
+        <img src="/src/assets/images/news_primerPlano.jpg" alt="Imagen principal" class="img-fluid w-100">
+
+        <nav class="container fs-6"
+            style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/src/index.html" class="text-secondary">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Noticias</li>
+            </ol>
+        </nav>
+
+        <h1 class="fs-3 text-center">
+            Noticias
+        </h1>
+
+        <!--   Sección 1 introducción -->
+        <section>
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <p class="fs-5 fw-bold">
+                            Santander reabre sus puertas a la XV Feria de artesanias con tallers participativos y
+                            puestos para emprendedores.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-8">
+                        <p class="fs-6 fw-light">
+                            La importancia de esta feria radica en el compromiso de las partes organizadoras en favor
+                            del sector artesanal y de la recuperación económica para la localidad. La feria se dará
+                            lugar en la Plaza Porticada que tendrá una duración de 11 días hasta el 17 de agosto sin
+                            costode entrada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--   Sección 2 noticias breves/resumen -->
+        <section class="container border-bottom border-top border-primary news">
+
+            <div class="news__list">
+                <ol class="list-group mt-3">
+
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-start border-0 news-list__item">
+
+                        <div class="news__number">
+                            <div class="news__circle">
+                                1
+                            </div>
+                        </div>
+
+                        <div class="ms-2 me-auto news-list__description">
+                            <div class="fw-bold news__title">
+                                Festival de artesanías de América
+                            </div>
+                            <p class="fw-light news__text">
+                                El Festival de artesanías de América es un evento anual organizado por el organismo
+                                <abbr>Cidap</abbr> que reúne artesanos internacionales. Es un evento conciderado el
+                                mayor
+                                encuentro de excelencia que promueve la comercialización de piezas artesanales de alta
+                                calidad. Esto impulsa el desarrollo del sector artesanal, dinamizando las economías
+                                locales
+                                y nacionales, ha estado declado como evento de interés cultural por la importancia en el
+                                area turística y cultural.<br><a
+                                    href="https://www.cidap.gob.ec/images/stories/faam_2026/bases.pdf"
+                                    class="news-list__link">
+                                    (enlace
+                                    externo)</a>
+                            </p>
+
+                        </div>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+
+                        <div class="news-number">
+                            <div class="news__circle">
+                                2
+                            </div>
+                        </div>
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold news__title">
+                                Esencia Artesana 2026 (8va Edición)
+                            </div>
+                            <p class="fw-light news__text">
+                                Del 27 de marzo al 12 de abril se realizó un evento sobre la artesanía asturiana
+                                organizado
+                                por la Asocación Cultural Mercado Ecológico y Artesano. Dentro del encuentro se
+                                desarrollo
+                                actividades como talleres participativos, esposiciones y encuentro de interés
+                                relacionados
+                                con las artesanía local.<br><a
+                                    href="https://mercadoartesanoyecologico.com/esencia-artesana/"
+                                    class="news-list__link"> (enlace
+                                    externo)</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                        <div class="list-number">
+                            <div class="news__circle">
+                                3
+                            </div>
+                        </div>
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold news__title">
+                                Talleres Días Europeos de la Artesanía (Ayuntamiento de Valdemorillo)
+                            </div>
+                            <p class="fw-light news__text">
+                                El Ayuntamiento de Valdemorillo junto a la consejalía de Cultura y Turismo ofrecerá jornadas gratuitas de talleres como adornos florales mediante el reciclaje, la elaboración de jabones, macramé, técnicas con el fieltro. El evento se desarrollará del 7 al 12 de abril.<br><a href="https://aytovaldemorillo.com/talleres-gratuitos-para-descubrir-el-arte-de-trabajar-con-las-manos-en-los-dias-europeos-de-la-artesania/" class="news-list__link"> (enlace externo)</a>
+                            </p>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+
+
+        </section>
+
+        <!--   Sección 3 noticia destacada -->
+
+        <section class="container mt-3 p-3 news">
+
+            <h2 class="fs-3">
+                Entrega del sello de garantía a los artesanos de la Moda Artesana por parte del Consell de Mallorca
+            </h2>
+
+            <div class="p-3">
+
+                <blockquote
+                    cite="https://www.conselldemallorca.es/es/artesania/-/asset_publisher/e2EhjauH4hR9/content/el-consell-de-mallorca-lliura-el-segell-de-garantia-de-moda-artesana-de-mallorca-als-artesans-de-la-marca/695139?p_r_p_assetEntryId=16766400&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_type=content&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_groupId=695139&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_urlTitle=el-consell-de-mallorca-lliura-el-segell-de-garantia-de-moda-artesana-de-mallorca-als-artesans-de-la-marca&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_redirect=https%3A%2F%2Fwww.conselldemallorca.es%2Fes%2Fartesania%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D16766400%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_cur%3D0%26p_r_p_resetCur%3Dfalse%23p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9#16766400">
+                    <p class="fs-6">(20/02/2026)</p>
+                    <p class="fs-6">
+                        La vicepresidenta del Consell de Mallorca y consejera de Cultura y Patrimonio, Antònia Roca, ha
+                        entregado personalmente los distintivos de Moda Artesana de Mallorca a los artesanos que
+                        integran esta marca de garantía. Lejos de un acto institucional, la consejera ha querido visitar
+                        durante las últimas dos semanas los talleres de cada uno de los creadores, para hacerles entrega
+                        del sello y conocer de primera mano sus procesos de trabajo.
+                    </p>
+                </blockquote>
+
+                <p class="fs-6">—Departamento de Cultura y Patrimonio, <cite>Consell de Mallorca</cite></p>
+
+                <figure>
+                    <img src="/src/assets/images/new1.jpg" class="img-fluid w-100" alt="Premio sello de garantía por parte del Consell de Mallorca">
+
+                    <figcaption class="fs-6">
+                        Entrega del sello de garantía por la consejera consejera ejecutiva de Cultura y Patrimonio del
+                        Consell de Mallorca (Antónia Roca). Imagen obtenida de <a
+                            href="https://www.conselldemallorca.es/es/artesania/-/asset_publisher/e2EhjauH4hR9/content/el-consell-de-mallorca-lliura-el-segell-de-garantia-de-moda-artesana-de-mallorca-als-artesans-de-la-marca/695139?p_r_p_assetEntryId=16766400&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_type=content&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_groupId=695139&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_urlTitle=el-consell-de-mallorca-lliura-el-segell-de-garantia-de-moda-artesana-de-mallorca-als-artesans-de-la-marca&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_redirect=https%3A%2F%2Fwww.conselldemallorca.es%2Fes%2Fartesania%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D16766400%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9_cur%3D0%26p_r_p_resetCur%3Dfalse%23p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e2EhjauH4hR9#16766400">enlace</a>,
+                        Consell de Mallorca.
+                    </figcaption>
+                </figure>
+
+
+                <p class="fs-6">
+                    Antònia Roca ha mencionado que «este distintivo es un reconocimiento al talento, al esfuerzo y a la
+                    dedicación de profesionales que mantienen vivos los oficios tradicionales de Mallorca y que los
+                    proyectan hacia el futuro con una mirada contemporánea». Estas palabras tienen como finalidad
+                    mantener una identidad de cultura y patrimonio propias del territorio para un apoyo total hacia los
+                    emprendedores y tradiciones.
+                </p>
+
+                <p class="fs-6">
+                    Premiados por el consell de Mallorca en oficios tradicionales:
+                </p>
+
+                <ol class="list-group list-group-numbered fs-6">
+                    <li class="list-group-item border-0">Artesania Tèxtil Bujosa</li>
+                    <li class="list-group-item border-0">Feel Mallorca</li>
+                    <li class="list-group-item border-0">Maria Genovard Atelier</li>
+                    <li class="list-group-item border-0">Moraduix</li>
+                    <li class="list-group-item border-0">Teixits Riera</li>
+                    <li class="list-group-item border-0">Teixits Vicens</li>
+                    <li class="list-group-item border-0">Vius Esporles</li>
+                </ol>
+            </div>
+
+        </section>
+
+        <!--   Sección 4 noticia destacada -->
+
+        <section class="container mt-3 p-3">
+
+            <h2 class="fs-4">
+                Docente Anna Champeney expecialista en el diseño con técnicas innovadoras en el tejido
+            </h2>
+
+            <div class="new">
+
+                  <p class="fs-6 m-1">
+                Anna Champeney es docente textil con Textilesnaturales y del curso postgradu de Artes Aplicadas
+                (Textil) en la Escola Massana, Barcelona. Inicialmente Anna derivó inspiración de la fusión
+                entre
+                técnicas
+                tradicionales y la innovación. Ha introducido técnicas innovadoras, tales como el diseño y
+                tejido
+                artesanal digital y una técnica innovadora que permite una tejedora profesional a tejer varias
+                piezas simultaneamente en telar, sin la necesidad de acabar los bordes largos después de
+                separarlos.
+            </p>
+
+
+            <div class="m-3 new">
+                <div class="row align-items-center text-center text-lg-start">
+
+                    <div class="col-lg-4 mt-3">
+                        <blockquote cite="https://www.textilesnaturales.com/es/proximos-cursos-textiles">
+                            <p class="fs-6">
+                                Anna tiene un experiencia de más de 25 años y es especialista en el arte y diseño del
+                                tejido
+                                de
+                                bajo lizo. Ha gestionando su propio estudio textil profesional desde 2004, con la
+                                comercialización de plaids y echarpes de marca propia y exposición a nivel nacional y
+                                internacional en Ferias de diseño y Artes Aplicadas.
+                            </p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-lg-4 d-flex justify-content-center">
+
+                        <div>
+                            <img src="https://www.textilesnaturales.com/wp-content/images/Anna-Champeney-especialista-en-bajo-lizo.jpg"
+                                alt="Docente Anna Champeney" class="photo-circle">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-3">
+                        <blockquote cite="https://www.textilesnaturales.com/es/proximos-cursos-textiles">
+                            <p class="fs-6">
+                                Su enfoque en la enseñanza textil es la creación de futuras tejedoras y tejedores,
+                                profesionales
+                                y aficionadas, desde nivel principiante hasta nivel profesional. Su estilo de enseñanza
+                                está
+                                basado en la idea de la “nueva tejeduría” (técnica + diseño + prácticas profesionales).
+                                Se
+                                organiza en cursos intensivos.
+                            </p>
+                        </blockquote>
+                        <p class="fs-6">—Cursos Textiles con Anna Champeney Estudio Textil, <cite>Textiles
+                                naturales</cite></p>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+
+            <p class="fs-6 mt-3">
+                Las clases son enfocadas a ténicas que puede replicar correctamente desde casa mediante fichas y
+                apunten muy bien detallados. Primero es recomendable realizar un curso básico y con el tiempo
+                avanzar de tal menera que para posteriores cursos puedas entender los gráficos y las técnicas a
+                utilizar. Los cursos tienen una capacidad máxima de 6 o 8 personas, las clases se realizan en Sant
+                Gregori en Girona. Las reservas son a través de correo electrónico o la web principal. <a
+                    href="https://www.textilesnaturales.com/es/proximos-cursos-textiles">(enlace
+                    externo)</a>
+            </p>
+        </section>
+
+    </main>
+
+    <include src="./views/footer-contact.html"></include>
+
+    <footer>
+        <include src="./views/footer.html"></include>
+    </footer>
+    
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+
+</body>
+
+</html>
